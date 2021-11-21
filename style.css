@@ -1,0 +1,165 @@
+    #tum-tablo {
+		margin: auto;
+		text-align: center;
+		width: 928px;
+	}
+
+	#tum-tablo:before, #tum-tablo:after {
+	  content: "";
+	  display: table
+	}
+
+	#tum-tablo:after {
+	  clear: both
+	}
+
+	/* --------------- */	
+
+	#tum-tablo .plan {
+		
+        font: 13px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+		background: #fff;      
+		border: 1px solid #ddd;
+		color: #333;
+		padding: 20px;
+		width: 180px;
+		float: left;
+		display: inline;
+		position: relative;
+		margin: 0 5px;
+		-moz-box-shadow: 0 2px 2px -1px rgba(0,0,0,.3);
+		-webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.3);
+		box-shadow: 0 2px 2px -1px rgba(0,0,0,.3);		
+	}
+
+	#tum-tablo .plan:after {
+      z-index: -1; 
+	  position: absolute; 
+	  content: "";
+	  bottom: 10px;
+	  right: 4px;
+	  width: 80%; 
+	  top: 80%; 
+	  -webkit-box-shadow: 0 12px 5px rgba(0, 0, 0, .3);   
+	  -moz-box-shadow: 0 12px 5px rgba(0, 0, 0, .3);
+	  box-shadow: 0 12px 5px rgba(0, 0, 0, .3);
+	  -webkit-transform: rotate(3deg);    
+	  -moz-transform: rotate(3deg);   
+	  -o-transform: rotate(3deg);
+	  -ms-transform: rotate(3deg);
+	  transform: rotate(3deg);	
+	}	
+
+	#tum-tablo .popular-plan {
+		top: -20px;
+		padding: 40px 20px;   
+	}
+
+	/* --------------- */	
+
+	#tum-tablo .header {
+		position: relative;
+		font-size: 20px;
+		font-weight: normal;
+		text-transform: uppercase;
+		padding: 40px;
+		margin: -20px -20px 20px -20px;
+		border-bottom: 8px solid;
+		background-color: #eee;
+		background-image: -moz-linear-gradient(#fff,#eee);
+		background-image: -webkit-linear-gradient(#fff, #eee);
+		background-image: -o-linear-gradient(#fff, #eee);
+		background-image: linear-gradient(#fff, #eee);
+	}
+
+	#tum-tablo .header:after {
+		position: absolute;
+		bottom: -8px; left: 0;
+		height: 3px; width: 100%;
+		content: '';
+	}
+
+	#tum-tablo .popular-plan .header {
+		margin-top: -40px;
+		padding-top: 60px;		
+	}
+
+	#tum-tablo .plan1 .header{
+		border-bottom-color: #A63F03;
+	}
+
+	#tum-tablo .plan2 .header{
+		border-bottom-color: #BF7E04;
+	}
+
+	#tum-tablo .plan3 .header{
+		border-bottom-color: #D9A407;
+	}
+
+	#tum-tablo .plan4 .header{
+		border-bottom-color: #F2CC0C;
+	}			
+
+	/* --------------- */
+
+	#tum-tablo .price{
+		font-size: 45px;
+	}
+
+	#tum-tablo .monthly{
+		font-size: 13px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		color: #999;
+	}
+
+	/* --------------- */
+
+	#tum-tablo ul {
+		margin: 20px 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	#tum-tablo li {
+		padding: 10px 0;
+	}
+
+	/* --------------- */
+
+	#tum-tablo .signup {
+		position: relative;
+		padding: 10px 20px;
+		color: #fff;
+		font: bold 14px Arial, Helvetica;
+		text-transform: uppercase;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+	#tum-tablo .signup:hover {
+		opacity: 1;       
+	}
+
+	#tum-tablo .signup:active {
+		-moz-box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;
+		-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;
+		box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;       
+	}			
+
+	#tum-tablo .plan1 .signup{
+		background: #A63F03;
+	}
+
+	#tum-tablo .plan2 .signup{
+		background: #BF7E04;
+	}
+
+	#tum-tablo .plan3 .signup{
+		background: #D9A407;
+	}
+
+	#tum-tablo .plan4 .signup{
+		background: #F2CC0C;
+	}
